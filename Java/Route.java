@@ -7,4 +7,4 @@ class Route {
     ArrayList<Double> end;
 }
 
-//Double porque las coordenadas son en decimales y son elevados de tamaño.
+//Double because the coordinates are in decimals and are large in size.

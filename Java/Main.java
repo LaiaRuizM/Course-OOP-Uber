@@ -7,4 +7,4 @@ class Main {
 }
 
 
-// Punto de entrada del programa
+// Program entry point
