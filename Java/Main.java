@@ -8,7 +8,7 @@ class Main {
         car.license = "AMQ123"; //licence, driver, etc are attributes
         car.driver = "Andrés Herrera";
         car.passenger = 4;
-        car.printDataCar();
+        car.printDataCar(); 
 
         Car car2 = new Car();  
         car2.license = "QWE567";
