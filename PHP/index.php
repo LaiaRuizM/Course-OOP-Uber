@@ -1,8 +1,13 @@
 <?php
-require_once "Car.php";
-require_once "Account.php";
+require_once "car.php";
+require_once "uberX.php";
+require_once "account.php";
 
-$car = new Car('ABC123', new Account('Laia Ruiz', 'LRM27'));
-    $car->printDataCar();
+//Creating an object (variable) of uberX type in PHP:
+$uberX = new UberX('ABC123', new Account('Laia Ruiz', 'LRM27'), "Chevrolet", "Spark");
+//Inheritance to print and see the data:
+$uberX->printDataCar();
 
-//    echo 'Hi World';
+$uberPool = new uberPool('TYU567', new Account('Andrea Ferran', 'ANDA765'), "Dodge", "Attitude");
+$uberPool->printDataCar();
+?>
