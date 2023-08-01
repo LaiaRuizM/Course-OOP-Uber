@@ -1,6 +1,6 @@
 <?php
-require_once("car.php"); //Bring PHP car file
-class UberX extends Car { //Same syntax as Java
+require_once("car.php"); 
+class UberPool extends Car { //Same syntax as Java
     public $brand;
     public $model;
 
@@ -11,5 +11,3 @@ class UberX extends Car { //Same syntax as Java
     }
 }
 ?>
-
-<!-- PHP -> ; are so important -->
