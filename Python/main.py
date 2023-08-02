@@ -2,7 +2,7 @@
 # We import the two classes we will use and instantiate them in the constructor methods.
 from car import Car;
 from account import Account;
-from user import User;
+# from User import User;
 
 if __name__ == "__main__":
     print("Hi, I am using Python!")
@@ -15,7 +15,7 @@ if __name__ == "__main__":
     print(vars(car2.driver))
     
     print("User")
-    user = User("Nacho Figueroa", "NFSD3781H", "nach@gmail.com", "24683274928")
+    user = Account("Nacho Figueroa", "NFSD3781H", "nach@gmail.com", "24683274928")
     print(vars(user))
 
 # if __name__ == "__main__":
