@@ -1,4 +1,4 @@
- package Java;
+package Java;
 class Main {
 
     // two objects (car and car2) from car class:
