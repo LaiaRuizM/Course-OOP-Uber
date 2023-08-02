@@ -22,7 +22,11 @@ class Car {
     }
 
     public void setPassenger(Integer passenger) {
+        if(passenger == 4) {
         this.passenger = passenger;
+        }else{
+            System.out.println("You need to assign 4 passengers"); 
+        }
     }
 
     
