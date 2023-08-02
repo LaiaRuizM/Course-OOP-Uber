@@ -13,6 +13,13 @@ class UberX extends Car {
         this.brand = brand;
         this.model = model;
     }
+
+    @Override
+    void printDataCar(){
+        super.printDataCar();
+        System.out.println("Brand: " + brand + " Model: " + model);
+
+    }
 }
 
 // If we put super., we have access to the attributes of the parent class.
