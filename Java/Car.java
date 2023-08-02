@@ -14,7 +14,9 @@ class Car {
     }
 
     void printDataCar() {
+        if(passenger != null){
         System.out.println("License: " + license + " Name Driver: " + driver.name + " Passengers: " + passenger);
+        }
     }
 
     public Integer getPassenger(){
