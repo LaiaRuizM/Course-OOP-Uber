@@ -15,13 +15,25 @@ class Car {
         $this->driver = $driver;
     }
 
-    //Method stated to print the data
-    public function printDataCar(){
-    echo 
-    "License: ".$this->license. 
-    " Driver: ".$this->driver->name.
-    " Document: ".$this->driver->document; //To bring driver object which is from Account, we have to declare the Account.php file -> require_once "Account.php"
-    }
+    // *Method stated to print the data
+    // public function printDataCar(){
+    // echo 
+    // "License: ".$this->license. 
+    // " Driver: ".$this->driver->name.
+    // " Document: ".$this->driver->document; //To bring driver object which is from Account, we have to declare the Account.php file -> require_once "Account.php"
+    // }
+    
+    //The code is the same as the above one, but more readable:
+    public function printDataCar() {
+    echo "
+        Licencia: $this->license 
+        Driver: {$this->driver->name} 
+        Número de pasajeros: $this->passenger
+        
+
+    ";
+}
+
 
     //Getter -> Return the value of the passenger property:
     public function getPassenger() {
