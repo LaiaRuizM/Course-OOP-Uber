@@ -32,7 +32,7 @@ class Car {
     }
 
 
-    // rigth click + source action + generate setters and getters:
+    // rigth click + source action + generate setters and getters of all attributes that we encapsulated (private):
     public Integer getId() {
         return id;
     }
@@ -55,10 +55,7 @@ class Car {
 
     public void setDriver(Account driver) {
         this.driver = driver;
-    }
-
-    
-    
+    }   
 }
 
 

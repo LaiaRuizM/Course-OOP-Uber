@@ -15,5 +15,10 @@ class UberVan extends Car {
         this.typeCarAccepted = typeCarAccepted;
         this.seatsMaterial = seatsMaterial;
     }
+
+    public UberVan(String license, Account driver){
+        super(license, driver);
+    }
 }
 
+// UberVan and UberBlack are the same, we can copy the info!
