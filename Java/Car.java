@@ -9,14 +9,25 @@ class Car {
     public Car(String license, Account driver){
         this.license = license;
         this.driver = driver;
-        passenger = 3;
-        System.out.println(" Passengers: " + passenger);
+        // passenger = 3;
+        // System.out.println(" Passengers: " + passenger);
     }
 
     void printDataCar() {
         System.out.println("License: " + license + " Name Driver: " + driver.name + " Passengers: " + passenger);
     }
+
+    public Integer getPassenger(){
+        return passenger;
+    }
+
+    public void setPassenger(Integer passenger) {
+        this.passenger = passenger;
+    }
+
+    
 }
 
 
 // printDataCar = method
+// void = We do not return anything, we assign the data.
