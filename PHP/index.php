@@ -34,4 +34,9 @@ $uberVan = new UberVan("OJL395", new Account("Raúl Ramírez", "AND456"), "Nissa
 $uberVan->setPassenger(6);
 $uberVan->printDataCar();
 
+//Instantiate a 4 passenger class:
+$uberX = new UberX("CVB123", new Account("Andres Herrera", "AND456"), "Chevrolet", "Spark");
+$uberX->setPassenger(4);
+$uberX->printDataCar();
+
 ?>
