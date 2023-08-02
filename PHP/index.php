@@ -7,6 +7,7 @@ require_once "payment.php";
 require_once "cash.php";
 require_once "payPal.php";
 require_once "card.php";
+require_once "user.php";
 
 //Creating an object (variable) of uberX type in PHP:
 $uberX = new UberX('ABC123', new Account('Laia Ruiz', 'LRM27'), "Chevrolet", "Spark");
@@ -24,5 +25,8 @@ $payPal->printDataPayment();
 
 $card = new Card("CARD", "1234ZXCVBNMASDF", "012", "02/30");
 $card->printDataPayment();
+
+$user = new User("Laia Ruiz", "LR0123", "lrm@gmail.com", "*lr/");
+$user->printDataUser();
 
 ?>
