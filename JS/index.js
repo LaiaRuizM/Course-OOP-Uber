@@ -12,3 +12,6 @@ let uberX = new UberX(
 );
 uberX.passenger = 4;
 uberX.printDataCar();
+
+let user = new User("Núria Ruiz", "DNI123", "nur@gmail.com", "012e");
+user.printDataUser();
