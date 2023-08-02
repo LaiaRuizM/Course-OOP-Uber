@@ -7,7 +7,7 @@ class Payment {
         this.id = id;
     }
 
-    void printDataCar() {
+    void printDataPayment() {
         System.out.println("Id: " + id);
     }
 }
