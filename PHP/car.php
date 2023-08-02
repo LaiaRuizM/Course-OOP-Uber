@@ -35,7 +35,7 @@ class Car {
             $this->passenger = $passenger;
         }
         else {
-            echo "Necesitas asignar 4 pasajeros";
+            echo "You need to assign 4 passengers";
         }
     }
 }
